@@ -1,0 +1,29 @@
+{
+    "name": "seek-x2y/life-time-sdk",
+    "description": "壹生科技 LIFETIME SDK",
+    "authors": [
+        {
+            "name": "wmc",
+            "email": "wu_1511@163.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "hanson/foundation-sdk": "3.0.0",
+        "ext-json": "*",
+        "nesbot/carbon": "^2.39"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Seekx2y\\LifeTimeSDK\\": "./src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Seekx2y\\Tests\\": "./tests"
+        }
+    }
+}
